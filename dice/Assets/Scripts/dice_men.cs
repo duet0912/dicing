@@ -5,7 +5,7 @@ public class dice_men  : MonoBehaviour{
 
 	public int test(int diceType, GameObject dice)
 	{
-		float posY = -20000;
+		float posY = -10000;
 		int diceMen =-1;
 		foreach (Transform child in dice.transform)
 		{
